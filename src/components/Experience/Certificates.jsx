@@ -1,5 +1,5 @@
 import React from "react";
-
+import internship from "../../../public/certificates/internship.jpg";
 const Certificates = () => {
   return (
     <>
@@ -7,7 +7,7 @@ const Certificates = () => {
         <div className="flex justify-center gap-4  p-3 rounded-md">
           <div className="card glass w-80">
             <figure>
-              <img src="./public/certificates/internship.jpg" alt="car!" />
+              <img src={internship} alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
