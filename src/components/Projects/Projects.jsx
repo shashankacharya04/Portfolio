@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "MovieZone is a sleek and user-friendly application designed to help movie enthusiasts discover and explore movies effortlessly. The app integrates with a movie API to provide users with the latest movie information and details.",
       github: "https://github.com/shashankacharya04/MovieApp",
-      image: "public/projectpic/MovieApp.jpg",
+      image: "public/projectpic/MovieApp.JPG",
     },
     {
       id: "#item3",
