@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import chatapp from "../../../public/projectpic/chatapp.jpg";
+import todo from "../../../public/projectpic/todo.jpg";
+import fetch from "../../../public/projectpic/fetching.jpg";
+import movieApp from "../../../public/projectpic/MovieApp.jpg";
 const Projects = () => {
   // for selected projects
   const [selectedProject, setSelectedProject] = useState("Full-Stack ChatApp");
@@ -9,7 +13,7 @@ const Projects = () => {
       description:
         "This ChatApp is a real-time messaging application built with React, designed to enhance user communication with key interactive features, including typing and online status indicators.",
       github: "https://github.com/shashankacharya04/RealTime-ChatApp",
-      image: "../../../public/projectpic/chatapp.jpg",
+      image: chatapp,
       link: "https://chat-app-prod-8esa.onrender.com/",
     },
     {
@@ -18,7 +22,7 @@ const Projects = () => {
       description:
         "MovieZone is a sleek and user-friendly application designed to help movie enthusiasts discover and explore movies effortlessly. The app integrates with a movie API to provide users with the latest movie information and details.",
       github: "https://github.com/shashankacharya04/MovieApp",
-      image: "public/projectpic/MovieApp.JPG",
+      image: movieApp,
     },
     {
       id: "#item3",
@@ -26,7 +30,7 @@ const Projects = () => {
       description:
         "This project is a simple yet functional TodoList application built with React. It allows users to manage their tasks efficiently by providing features such as adding, editing, and deleting tasks.",
       github: "https://github.com/shashankacharya04/Todo",
-      image: "public/projectpic/todo.jpg",
+      image: todo,
     },
     {
       id: "#item4",
@@ -34,7 +38,7 @@ const Projects = () => {
       description:
         "This project is a dynamic frontend application that utilizes the JSONPlaceholder API, a free online REST API that provides fake data for testing and prototyping. The application showcases a variety of data types, including posts, comments, users, and more, to demonstrate the capabilities of working with RESTful APIs.",
       github: "https://github.com/shashankacharya04/Jsonplaceholdertest",
-      image: "public/projectpic/fetching.jpg",
+      image: fetch,
     },
   ];
   //   filtering single users based on the projects clicked

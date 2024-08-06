@@ -1,93 +1,110 @@
 import Certificates from "./Certificates";
 import LanguageCard from "./LanguageCard";
+import chsarp from "../../../public/logos/csharp.svg";
+import python from "../../../public/logos/python.svg";
+import javascript from "../../../public/logos/javascript.svg";
+import typescript from "../../../public/logos/typescript.svg";
+import sql from "../../../public/logos/sql.svg";
+import java from "../../../public/logos/java.svg";
+import react from "../../../public/logos/react.svg";
+import node from "../../../public/logos/nodejs.svg";
+import tailwindcss from "../../../public/logos/tailwindcss.svg";
+import mongodb from "../../../public/logos/mongodb.svg";
+import mysql from "../../../public/logos/mysql.svg";
+import html from "../../../public/logos/html.svg";
+import express from "../../../public/logos/express.svg";
+import git from "../../../public/logos/git.svg";
+import github from "../../../public/logos/github.svg";
+import postman from "../../../public/logos/postman.svg";
+import nextjs from "../../../public/logos/nextjs.svg";
 const Languages = () => {
   const languages = [
     {
       id: 2,
       name: "C#",
-      image: "./public/logos/csharp.svg",
+      image: chsarp,
     },
     {
       id: 3,
       name: "Python",
-      image: "./public/logos/python.svg",
+      image: python,
     },
     {
       id: 4,
       name: "JavaScript",
-      image: "./public/logos/javascript.svg",
+      image: javascript,
     },
     {
       id: 5,
       name: "TypeScript",
-      image: "./public/logos/typescript.svg",
+      image: typescript,
     },
     {
       id: 7,
       name: "SQL",
-      image: "./public/logos/sql.svg",
+      image: sql,
     },
     {
       id: 7,
       name: "java",
-      image: "./public/logos/java.svg",
+      image: java,
     },
   ];
   const technologies = [
     {
       id: 1,
       name: "ReactJS",
-      image: "./public/logos/react.svg",
+      image: react,
     },
     {
       id: 2,
       name: "NodeJS",
-      image: "./public/logos/nodejs.svg",
+      image: node,
     },
     {
       id: 3,
       name: "MongoDB",
-      image: "./public/logos/mongodb.svg",
+      image: mongodb,
     },
     {
       id: 4,
       name: "ExpressJS",
-      image: "./public/logos/express.svg",
+      image: express,
     },
     {
       id: 5,
       name: "HTML",
-      image: "./public/logos/html.svg",
+      image: html,
     },
     {
       id: 6,
       name: "NextJS",
-      image: "./public/logos/nextjs.svg",
+      image: nextjs,
     },
     {
       id: 7,
       name: "MySql",
-      image: "./public/logos/mysql.svg",
+      image: mysql,
     },
     {
       id: 8,
       name: "Postman",
-      image: "./public/logos/postman.svg",
+      image: postman,
     },
     {
       id: 9,
       name: "Tailwind CSS",
-      image: "./public/logos/tailwindcss.svg",
+      image: tailwindcss,
     },
     {
       id: 10,
       name: "Git",
-      image: "./public/logos/git.svg",
+      image: git,
     },
     {
       id: 11,
       name: "GitHub",
-      image: "./public/logos/github.svg",
+      image: github,
     },
   ];
 

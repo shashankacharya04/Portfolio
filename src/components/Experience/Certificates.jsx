@@ -1,5 +1,7 @@
 import React from "react";
 import internship from "../../../public/certificates/internship.jpg";
+import workshop from "../../../public/certificates/reactjs.jpg";
+import prize from "../../../public/certificates/prize.jpg";
 const Certificates = () => {
   return (
     <>
@@ -23,7 +25,7 @@ const Certificates = () => {
 
           <div className="card glass w-80 ">
             <figure>
-              <img src="./public/certificates/reactjs.jpg" alt="car!" />
+              <img src={workshop} alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title">
@@ -40,11 +42,7 @@ const Certificates = () => {
         <div className=" rounded-md">
           <div className="card  lg:card-side bg-base-100 shadow-xl h-96 mt-4 px-3 bg-transparent ">
             <figure>
-              <img
-                src="./public/certificates/prize.jpg"
-                alt="Album"
-                className="h-full"
-              />
+              <img src={prize} alt="Album" className="h-full" />
             </figure>
             <div className="card-body bg-transparent">
               <h2 className="card-title">Web design Competition</h2>

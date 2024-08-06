@@ -1,5 +1,4 @@
 import React from "react";
-
 const LanguageCard = ({ lang }) => {
   return (
     <div className="stack p-1">
