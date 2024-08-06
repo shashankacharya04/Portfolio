@@ -5,89 +5,89 @@ const Languages = () => {
     {
       id: 2,
       name: "C#",
-      image: "/public/logos/csharp.svg",
+      image: "./public/logos/csharp.svg",
     },
     {
       id: 3,
       name: "Python",
-      image: "/public/logos/python.svg",
+      image: "./public/logos/python.svg",
     },
     {
       id: 4,
       name: "JavaScript",
-      image: "/public/logos/javascript.svg",
+      image: "./public/logos/javascript.svg",
     },
     {
       id: 5,
       name: "TypeScript",
-      image: "/public/logos/typescript.svg",
+      image: "./public/logos/typescript.svg",
     },
     {
       id: 7,
       name: "SQL",
-      image: "/public/logos/sql.svg",
+      image: "./public/logos/sql.svg",
     },
     {
       id: 7,
       name: "java",
-      image: "/public/logos/java.svg",
+      image: "./public/logos/java.svg",
     },
   ];
   const technologies = [
     {
       id: 1,
       name: "ReactJS",
-      image: "public/logos/react.svg",
+      image: "./public/logos/react.svg",
     },
     {
       id: 2,
       name: "NodeJS",
-      image: "public/logos/nodejs.svg",
+      image: "./public/logos/nodejs.svg",
     },
     {
       id: 3,
       name: "MongoDB",
-      image: "public/logos/mongodb.svg",
+      image: "./public/logos/mongodb.svg",
     },
     {
       id: 4,
       name: "ExpressJS",
-      image: "public/logos/express.svg",
+      image: "./public/logos/express.svg",
     },
     {
       id: 5,
       name: "HTML",
-      image: "public/logos/html.svg",
+      image: "./public/logos/html.svg",
     },
     {
       id: 6,
       name: "NextJS",
-      image: "public/logos/nextjs.svg",
+      image: "./public/logos/nextjs.svg",
     },
     {
       id: 7,
       name: "MySql",
-      image: "public/logos/mysql.svg",
+      image: "./public/logos/mysql.svg",
     },
     {
       id: 8,
       name: "Postman",
-      image: "public/logos/postman.svg",
+      image: "./public/logos/postman.svg",
     },
     {
       id: 9,
       name: "Tailwind CSS",
-      image: "public/logos/tailwindcss.svg",
+      image: "./public/logos/tailwindcss.svg",
     },
     {
       id: 10,
       name: "Git",
-      image: "public/logos/git.svg",
+      image: "./public/logos/git.svg",
     },
     {
       id: 11,
       name: "GitHub",
-      image: "public/logos/github.svg",
+      image: "./public/logos/github.svg",
     },
   ];
 
