@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Projects = () => {
   // for selected projects
   const [selectedProject, setSelectedProject] = useState("Full-Stack ChatApp");
@@ -10,7 +9,7 @@ const Projects = () => {
       description:
         "This ChatApp is a real-time messaging application built with React, designed to enhance user communication with key interactive features, including typing and online status indicators.",
       github: "https://github.com/shashankacharya04/RealTime-ChatApp",
-      image: "public/projectpic/chatapp.jpg",
+      image: "../../../public/projectpic/chatapp.jpg",
       link: "https://chat-app-prod-8esa.onrender.com/",
     },
     {
