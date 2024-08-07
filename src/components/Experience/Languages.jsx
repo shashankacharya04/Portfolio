@@ -121,7 +121,7 @@ const Languages = () => {
         <div className="mockup-browser  border w-screen">
           <div className="mockup-browser-toolbar ">
             <div className="input border-base-300 border text-red-400">
-              Languages and Techonologies i know
+              Languages and Technologies i know
             </div>
           </div>
           <div className="flex gap-2  justify-center flex-wrap  h-auto border p-5 rounded-3xl mt-0">
